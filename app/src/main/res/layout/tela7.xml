@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:text="Revise os detalhes da sua transferência"
+        android:textSize="28dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginLeft="16dp"
+        android:textStyle="bold"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:text="Para Lara"
+        android:textSize="24dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="16dp"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Quando vai ser"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="25dp"
+            android:textSize="24dp"
+            />
+
+        <Button
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Alterar"
+            android:textSize="20dp"
+            android:layout_marginLeft="110dp"
+            android:paddingRight="16dp"
+            android:layout_marginTop="24dp"
+            android:backgroundTint="@color/gray"
+            android:textColor="@color/black"
+            />
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Agora"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="6dp"
+        android:textSize="24dp"
+        android:textStyle="bold"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Como"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="25dp"
+            android:textSize="24dp"
+            />
+
+        <Button
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Alterar"
+            android:textSize="20dp"
+            android:layout_marginLeft="210dp"
+            android:paddingRight="16dp"
+            android:layout_marginTop="24dp"
+            android:backgroundTint="@color/gray"
+            android:textColor="@color/black"
+            />
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Pix"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="6dp"
+        android:textSize="24dp"
+        android:textStyle="bold"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Transferindo com"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="25dp"
+            android:textSize="24dp"
+            />
+
+        <Button
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Alterar"
+            android:textSize="20dp"
+            android:layout_marginLeft="85dp"
+            android:paddingRight="16dp"
+            android:layout_marginTop="24dp"
+            android:backgroundTint="@color/gray"
+            android:textColor="@color/black"
+            />
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Saldo da conta"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="6dp"
+        android:textSize="24dp"
+        android:textStyle="bold"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="R$ 900,00"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="18dp"
+            android:textSize="24dp"
+            android:textStyle="bold"
+            />
+        <Button
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Transferir"
+            android:textSize="20dp"
+            android:onClick="abrirNovaActivity"
+            android:layout_marginLeft="110dp"
+            android:layout_marginTop="18dp"
+            android:backgroundTint="@color/purple"
+            android:textColor="@color/white"
+            />
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Total a pagar"
+        android:layout_marginTop="12dp"
+        android:layout_marginLeft="16dp"
+        android:textSize="24dp"
+        />
+
+</LinearLayout>

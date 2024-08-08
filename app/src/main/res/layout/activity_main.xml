@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:columnCount="1"
+    android:rowCount="3"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"/>
+
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/purple"
+        android:paddingVertical="16dp"
+        android:paddingHorizontal="8dp"
+        android:layout_marginBottom="25dp"
+
+        >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Olá, Nara"
+        android:textColor="@color/white"
+        android:textSize="22dp"
+      />
+
+        <ImageView
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:layout_marginLeft="250dp"
+            android:src="@drawable/olho"
+            />
+
+        <ImageView
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:layout_marginLeft="300dp"
+            android:src="@drawable/interrogacao"
+            />
+
+        <ImageView
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:layout_marginLeft="350dp"
+            android:src="@drawable/email"
+            />
+
+</FrameLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Conta"
+        android:textColor="@color/black"
+        android:paddingVertical="12dp"
+        android:paddingHorizontal="8dp"
+        android:textSize="22dp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="R$6.000,00"
+        android:textColor="@color/black"
+        android:paddingVertical="12dp"
+        android:paddingHorizontal="8dp"
+        android:textSize="22dp"
+/>
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="20dp"
+        android:gravity="center_horizontal"
+
+        android:weightSum="4">
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:src="@drawable/pix1"
+            android:layout_marginRight="18dp"
+            android:backgroundTint="@color/gray"
+            app:cornerRadius="50dp"
+            android:onClick="abrirNovaActivity"
+            />
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:src="@drawable/carteira"
+            android:layout_marginRight="18dp"
+            android:backgroundTint="@color/gray"
+            app:cornerRadius="50dp"
+        />
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:src="@drawable/cima"
+            android:layout_marginRight="18dp"
+            android:backgroundTint="@color/gray"
+            app:cornerRadius="50dp"
+        />
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:src="@drawable/baixo"
+            android:layout_marginRight="18dp"
+            android:backgroundTint="@color/gray"
+            app:cornerRadius="50dp"
+        />
+
+
+
+
+</LinearLayout>
+    <Button
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/myButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Meus Cartões"
+        android:drawableLeft="@drawable/card"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"
+        android:layout_marginTop="16dp"
+        android:backgroundTint="@color/gray"
+        android:textColor="@color/black"
+        android:textSize="22dp"
+        />
+
+    <Button
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Conheça Nubank Vida: um seguro simples e que cabe no bolso"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"
+        android:layout_marginTop="16dp"
+        android:backgroundTint="@color/gray"
+        android:textColor="@color/black"
+        android:textSize="22dp"
+        />
+    <Button
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:drawableLeft="@drawable/card"
+        android:paddingLeft="40dp"
+        android:paddingRight="16dp"
+        android:layout_marginTop="20dp"
+        android:textColor="@color/black"
+        android:backgroundTint="@color/fantasma"
+        android:textSize="22dp"
+        />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text= "Cartão de Crédito"
+        android:textStyle="bold"
+        android:textSize="19dp"
+        android:paddingLeft="19dp"
+        android:paddingRight="16dp"
+        android:layout_marginTop="15dp"
+        android:textColor="@color/black"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text= "Fatura Atual"
+        android:textSize="15dp"
+        android:paddingLeft="20dp"
+        android:paddingRight="16dp"
+        android:layout_marginTop="9dp"
+        android:textColor="@color/black"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text= "R$ 5.000"
+        android:textStyle="bold"
+        android:textSize="19dp"
+        android:paddingLeft="19dp"
+        android:paddingRight="16dp"
+        android:layout_marginTop="15dp"
+        android:textColor="@color/black"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text= "Limite disponível de R$ 15.000,00"
+        android:textSize="15dp"
+        android:paddingLeft="20dp"
+        android:paddingRight="16dp"
+        android:layout_marginTop="9dp"
+        android:textColor="@color/black"
+        />
+
+
+
+</LinearLayout>

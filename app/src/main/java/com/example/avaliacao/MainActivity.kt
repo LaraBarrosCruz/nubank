@@ -1,0 +1,19 @@
+package com.example.avaliacao
+
+import android.content.Intent
+import androidx.appcompat.app.AppCompatActivity
+import android.os.Bundle
+import android.view.View
+
+class MainActivity : AppCompatActivity() {
+    override fun onCreate(savedInstanceState: Bundle?) {
+        super.onCreate(savedInstanceState)
+        setContentView(R.layout.activity_main)
+    }
+    fun abrirNovaActivity(view: View) {
+        val intent = Intent(this, area_pix::class.java)
+        startActivity(intent)
+    }
+
+
+}
